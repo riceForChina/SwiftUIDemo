@@ -13,7 +13,7 @@ struct swiftUIDemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            CustomeView()
+            WelcomeView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
